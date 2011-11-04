@@ -49,6 +49,7 @@ macros.
 %{_texmfdistdir}/tex/latex/sepnum/sepnum.sty
 %doc %{_texmfdistdir}/doc/latex/sepnum/sepnum-doc.pdf
 %doc %{_texmfdistdir}/doc/latex/sepnum/sepnum-doc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +60,5 @@ macros.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
