@@ -6,7 +6,7 @@
 # catalog-version 2.0
 Name:		texlive-sepnum
 Version:	2.0
-Release:	2
+Release:	3
 Summary:	Print numbers in a "friendly" format
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sepnum
