@@ -1,6 +1,6 @@
 Name:		texlive-sepnum
 Version:	20186
-Release:	1
+Release:	2
 Summary:	Print numbers in a "friendly" format
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sepnum
