@@ -3,7 +3,7 @@ Version:	20186
 Release:	2
 Summary:	Print numbers in a "friendly" format
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sepnum
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/sepnum
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/sepnum.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/sepnum.doc.r%{version}.tar.xz
